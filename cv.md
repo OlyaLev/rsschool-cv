@@ -36,25 +36,12 @@ Industrial and civil constructions, Engineer's degree
 [https://olyalev.github.io/rsschool-cv/](https://olyalev.github.io/rsschool-cv/)
 
 ---
-## Code exaples:  
+## Code exaple:  
 ```
-function comNum(val) { //Comparison of numbers function
-    if (val < 10){
-        return "False. Smaller than 10"
-    } else if (val > 20) {
-        return "False. Greater than 20"
-    } else {
-        return "True. Between 10 and 20"
-    }
+function toBinary(n){
+  const bin = n.toString(2)
+  return Number(bin);
 }
-comNum(15);
-console.log(comNum(15));
-``` 
-```
-const anArr = []; 
-for (let y = 1; y < 5; y++) { //Creating an array with loop
-    anArr.push(y)
-}
-console.log(anArr);
+toBinary(11) //1011;
 ```
 ---

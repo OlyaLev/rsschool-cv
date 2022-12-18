@@ -38,10 +38,8 @@ Industrial and civil constructions, Engineer's degree
 ---
 ## Code exaple:  
 ```
-function toBinary(n){
-  const bin = n.toString(2)
-  return Number(bin);
+function multiply(a, b){
+  return a * b;
 }
-toBinary(11) //1011;
 ```
 ---
